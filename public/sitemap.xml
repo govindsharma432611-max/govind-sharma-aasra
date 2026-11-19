@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>/</loc><priority>1.0</priority></url>
+  <url><loc>/about</loc><priority>0.8</priority></url>
+  <url><loc>/services</loc><priority>0.9</priority></url>
+  <url><loc>/services/website-development</loc><priority>0.8</priority></url>
+  <url><loc>/services/application-development</loc><priority>0.8</priority></url>
+  <url><loc>/services/logo-design</loc><priority>0.8</priority></url>
+  <url><loc>/services/typography-design</loc><priority>0.8</priority></url>
+  <url><loc>/services/poster-design</loc><priority>0.8</priority></url>
+  <url><loc>/services/menu-design</loc><priority>0.8</priority></url>
+  <url><loc>/services/digital-marketing</loc><priority>0.8</priority></url>
+  <url><loc>/services/performance-marketing</loc><priority>0.8</priority></url>
+  <url><loc>/services/social-media-management</loc><priority>0.8</priority></url>
+  <url><loc>/services/ai-agents-automation</loc><priority>0.8</priority></url>
+  <url><loc>/services/data-analysis</loc><priority>0.8</priority></url>
+  <url><loc>/services/business-process-automation</loc><priority>0.8</priority></url>
+  <url><loc>/work</loc><priority>0.9</priority></url>
+  <url><loc>/pricing</loc><priority>0.8</priority></url>
+  <url><loc>/process</loc><priority>0.7</priority></url>
+  <url><loc>/insights</loc><priority>0.8</priority></url>
+  <url><loc>/contact</loc><priority>0.9</priority></url>
+  <url><loc>/privacy-policy</loc><priority>0.4</priority></url>
+  <url><loc>/terms-and-conditions</loc><priority>0.4</priority></url>
+  <url><loc>/cookie-policy</loc><priority>0.4</priority></url>
+  <url><loc>/refund-cancellation-policy</loc><priority>0.4</priority></url>
+  <url><loc>/disclaimer</loc><priority>0.4</priority></url>
+</urlset>

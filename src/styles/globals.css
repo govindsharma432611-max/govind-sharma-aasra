@@ -1,0 +1,72 @@
+:root {
+  /* Official AASRA Brand Palette */
+  --aasra-white: #FFFFFF;
+  --aasra-deep-purple: #1D0D42;
+  --aasra-electric-purple: #6327FB;
+  --aasra-near-black: #050404;
+  --aasra-lavender: #A786FC;
+  --aasra-light-grey: #EAEAEA;
+
+  /* Semantic Surface & Text Tokens */
+  --surface-canvas: var(--aasra-white);
+  --surface-alt: var(--aasra-light-grey);
+  --surface-premium: var(--aasra-deep-purple);
+  --text-primary: var(--aasra-near-black);
+  --text-inverse: var(--aasra-white);
+  --accent-primary: var(--aasra-electric-purple);
+  --accent-secondary: var(--aasra-lavender);
+}
+
+@layer base {
+  html {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: var(--aasra-white);
+    color: var(--aasra-near-black);
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-display {
+    font-family: 'Bricolage Grotesque', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-optical-sizing: auto;
+    text-wrap: balance;
+  }
+
+  h1, h2 {
+    letter-spacing: -0.025em;
+  }
+
+  body {
+    overflow-x: hidden;
+    background-color: var(--aasra-white);
+    color: var(--aasra-near-black);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--aasra-electric-purple);
+    outline-offset: 2px;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.aasra-gradient {
+  background: linear-gradient(135deg, var(--aasra-deep-purple) 0%, var(--aasra-electric-purple) 100%);
+}
+
+.aasra-gradient-accent {
+  background: linear-gradient(135deg, var(--aasra-deep-purple) 0%, var(--aasra-electric-purple) 65%, var(--aasra-lavender) 100%);
+}
+
+/* Reduced motion compliance */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

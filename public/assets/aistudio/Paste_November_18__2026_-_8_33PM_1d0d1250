@@ -1,0 +1,1547 @@
+# PROJECT: AASRA WEB DEVS — COMPLETE WEBSITE + INSTALLABLE WEB APPLICATION
+
+Act as a senior full-stack developer, UI/UX designer, creative director, frontend architect, backend engineer, PWA specialist, and SEO expert.
+
+Your task is to build a complete, premium, responsive, multi-page website and installable web application for **AASRA Web Devs**.
+
+This is a real business website.
+
+It must not be a static prototype, simple landing page, or generic AI-generated website template.
+
+You must actually implement the website in the current workspace, run it, test it, inspect it through a browser, and fix problems.
+
+The final website must work both as:
+
+1. A normal website opened through a browser.
+2. An installable application that visitors can add to their mobile phones, tablets, and desktop devices.
+
+The installed application must provide an app-like experience without the normal browser interface wherever the platform supports standalone display.
+
+==================================================
+1. UNDERSTAND OUR BUSINESS
+==================================================
+
+Business Name: AASRA Web Devs
+
+Business Type:
+Digital Agency | Creative Studio | Technology Solutions | Digital Growth Agency.
+
+Our positioning:
+
+"We build digital experiences and growth systems that move businesses forward."
+
+We help businesses establish, strengthen, and grow their brands through technology, creativity, digital marketing, data, and automation.
+
+OUR SERVICES:
+
+DEVELOPMENT:
+1. Website Development.
+2. Application Development.
+
+CREATIVE & BRANDING:
+3. Logo Design.
+4. Typography Design.
+5. Poster and Promotional Design.
+
+MARKETING & GROWTH:
+6. Digital Marketing.
+7. Performance Marketing.
+8. Social Media Management.
+
+TECHNOLOGY & INTELLIGENCE:
+9. AI Agents and AI Automation.
+10. Data Analysis and Business Intelligence.
+11. Business Process Automation.
+
+All eleven services must be represented throughout the website.
+
+Do not position AASRA as merely a website-development company.
+
+We are a combination of:
+- Creative branding studio.
+- Software development agency.
+- Digital marketing agency.
+- AI and automation solutions provider.
+- Business growth partner.
+
+==================================================
+2. BRAND IDENTITY AND OFFICIAL COLOUR PALETTE
+==================================================
+
+Use the supplied AASRA brand colour palette PDF.
+
+The six official colours are:
+
+PURE WHITE: #FFFFFF
+DEEP PURPLE: #1D0D42
+ELECTRIC PURPLE: #6327FB
+NEAR BLACK: #050404
+LAVENDER: #A786FC
+LIGHT GREY: #EAEAEA
+
+COLOUR DISTRIBUTION:
+
+Main website backgrounds: White.
+
+Alternate sections: Light Grey.
+
+Premium sections: Deep Purple.
+
+Primary CTA buttons: Electric Purple.
+
+Secondary accents: Lavender.
+
+Main typography: Near Black.
+
+Dark section typography: White.
+
+Gradients: Deep Purple to Electric Purple with occasional Lavender highlights.
+
+Create reusable CSS variables for every brand colour.
+
+STRICT RULES:
+
+- Do not introduce unrelated colours.
+- Do not make every section purple.
+- Avoid excessive gradients.
+- Avoid excessive glassmorphism.
+- Avoid generic blue technology aesthetics.
+- Maintain consistent colour usage.
+- Use whitespace intelligently.
+
+Use our actual logo if it is available in the project assets.
+
+Do not invent an unrelated logo.
+
+==================================================
+3. CREATIVE DIRECTION
+==================================================
+
+The website should combine:
+
+- Premium international creative agency aesthetics.
+- Modern software company design.
+- Sophisticated branding studio layouts.
+- Contemporary AI technology interfaces.
+
+Use the design principles from the Kolibrie Studio reference specification I supplied earlier.
+
+Take inspiration from:
+- Large editorial typography.
+- Interactive hero sections.
+- Smooth text reveals.
+- Scroll-based animations.
+- Layered portfolio cards.
+- Sticky content sections.
+- Creative image positioning.
+- Premium navigation.
+- Smooth transitions.
+- Sophisticated cursor interactions.
+
+Do not copy the Kolibrie branding, content, colour system, or identity.
+
+Create an original visual identity for AASRA Web Devs.
+
+The finished website must feel professionally art-directed.
+
+==================================================
+4. TECHNOLOGY STACK
+==================================================
+
+First inspect the existing project workspace.
+
+If a project already exists, understand its structure and reuse working configurations wherever possible.
+
+If the workspace is empty, use:
+
+Frontend:
+- Next.js with App Router.
+- React.
+- TypeScript.
+- Tailwind CSS.
+
+Animations:
+- GSAP.
+- GSAP ScrollTrigger.
+- Framer Motion where appropriate.
+- Lenis where appropriate.
+
+Icons:
+- Lucide React.
+
+Typography:
+- Space Grotesk for headings.
+- Manrope for body text.
+
+PWA:
+- Web App Manifest.
+- Service Worker.
+- Browser installation APIs.
+- Offline fallback page.
+- Responsive installation interface.
+
+Backend:
+Use Next.js server capabilities where appropriate.
+
+Use stable, compatible dependency versions.
+
+Avoid unnecessary dependencies.
+
+Do not use paid APIs, paid templates, or paid services without approval.
+
+Architecture requirements:
+- Reusable components.
+- Reusable page templates.
+- Centralised design tokens.
+- Centralised service data.
+- Centralised portfolio data.
+- Centralised pricing data.
+- Type-safe components.
+- Maintainable project structure.
+
+==================================================
+5. COMPLETE WEBSITE ARCHITECTURE
+==================================================
+
+Create these routes:
+
+PUBLIC PAGES:
+
+/                         Home
+/about                    About Us
+/services                 Services Overview
+/services/website-development
+/services/application-development
+/services/logo-design
+/services/typography-design
+/services/poster-design
+/services/digital-marketing
+/services/performance-marketing
+/services/social-media-management
+/services/ai-agents-automation
+/services/data-analysis
+/services/business-process-automation
+
+/work                     Portfolio
+/work/[slug]              Individual Case Studies
+
+/pricing                  Pricing
+/process                  Our Process
+/insights                 Blog / Insights
+/insights/[slug]          Individual Articles
+/contact                  Contact Us
+
+LEGAL PAGES:
+
+/privacy-policy
+/terms-and-conditions
+/cookie-policy
+/refund-cancellation-policy
+/disclaimer
+
+PWA SUPPORT:
+
+/offline                  Offline fallback page
+
+Every route must work.
+
+Do not create empty pages just to satisfy the route list.
+
+Use reusable templates for service pages, case studies, articles, and legal pages.
+
+==================================================
+6. GLOBAL NAVIGATION
+==================================================
+
+Create a premium fixed or sticky navigation.
+
+LEFT:
+AASRA Web Devs logo.
+
+CENTRE:
+- Home
+- Services
+- Work
+- About
+- Insights
+- Pricing
+
+RIGHT:
+- Contact Us
+- Start a Project
+- Install App
+
+The Install App button should be visually consistent with the brand.
+
+The installation button should appear only when installation is available or when platform-specific installation instructions can be shown.
+
+Desktop:
+- Elegant horizontal navigation.
+- Subtle scroll transitions.
+- Animated underline.
+- Clear active states.
+
+Mobile:
+- Professional hamburger menu.
+- Smooth slide-in navigation.
+- Contact CTA.
+- Install App option.
+- Touch-friendly controls.
+
+All navigation links must work.
+
+==================================================
+7. HOMEPAGE
+==================================================
+
+The homepage is the most important page.
+
+SECTION 1 — HERO
+
+Headline:
+
+"WE BUILD.
+WE BRAND.
+WE GROW."
+
+Supporting headline:
+
+"Your ideas deserve more than an ordinary digital presence."
+
+Description:
+
+"We combine technology, design, marketing, and intelligent automation to help businesses build stronger brands and achieve sustainable digital growth."
+
+Primary CTA:
+START A PROJECT.
+
+Secondary CTA:
+EXPLORE OUR WORK.
+
+Create:
+- Large animated typography.
+- Premium white and purple composition.
+- Floating digital project cards.
+- Website and application mockups.
+- Branding previews.
+- AI automation workflow visuals.
+- Subtle purple lighting.
+- Cursor-responsive visual card on desktop.
+
+Keep the hero visually powerful without overcrowding it.
+
+SECTION 2 — INTRODUCTION
+
+Headline:
+
+"MORE THAN AN AGENCY.
+YOUR DIGITAL GROWTH PARTNER."
+
+Explain our business philosophy.
+
+Use a creative editorial two-column composition.
+
+SECTION 3 — SERVICES
+
+Headline:
+
+"EVERYTHING YOUR BRAND NEEDS TO MOVE FORWARD."
+
+Show four categories:
+
+1. Development.
+2. Creative & Branding.
+3. Marketing & Growth.
+4. AI, Data & Automation.
+
+Each category must link to the relevant services.
+
+SECTION 4 — SELECTED WORK
+
+Headline:
+
+"IDEAS TURNED INTO EXPERIENCES."
+
+Create an asymmetrical project showcase.
+
+Include placeholders for:
+- Websites.
+- Applications.
+- Branding.
+- Creative Design.
+- Marketing.
+- Automation.
+
+Do not invent real clients or project results.
+
+SECTION 5 — WHY AASRA?
+
+Headline:
+
+"ONE VISION.
+MULTIPLE POSSIBILITIES."
+
+Include:
+- Technology Meets Creativity.
+- Strategy Before Execution.
+- Solutions Built Around Your Business.
+- Connected Digital Services.
+- Focus on Practical Business Outcomes.
+
+SECTION 6 — OUR PROCESS
+
+Show:
+
+01 Discover.
+02 Strategise.
+03 Build.
+04 Grow.
+
+Use a connected animated timeline.
+
+SECTION 7 — CTA
+
+Deep purple background.
+
+Headline:
+
+"READY TO BUILD SOMETHING THAT MATTERS?"
+
+Button:
+LET'S TALK.
+
+SECTION 8 — FAQ
+
+Include interactive questions:
+
+- What services does AASRA provide?
+- Do you work with startups?
+- Can I hire you for individual services?
+- Do you develop applications?
+- Do you provide digital marketing?
+- Do you develop AI agents?
+- How do I start a project?
+- How is pricing determined?
+
+SECTION 9 — FOOTER
+
+Include:
+- Brand description.
+- Main navigation.
+- Services.
+- Contact details.
+- Social links.
+- Privacy Policy.
+- Terms & Conditions.
+- Cookie Policy.
+- Refund & Cancellation Policy.
+- Disclaimer.
+- Copyright.
+
+==================================================
+8. ABOUT PAGE
+==================================================
+
+Route: /about
+
+Hero:
+
+"CREATIVITY WITH PURPOSE.
+TECHNOLOGY WITH VISION."
+
+Include:
+
+1. Who We Are.
+2. Our Mission.
+3. Our Vision.
+4. What Makes Us Different.
+5. Our Capabilities.
+6. Our Philosophy.
+7. Meet the Team.
+8. Final CTA.
+
+Create editable team cards.
+
+Do not fabricate personal information, professional backgrounds, or employee qualifications.
+
+==================================================
+9. SERVICES PAGES
+==================================================
+
+Create one main Services page and eleven individual service pages.
+
+Every service page must contain:
+
+1. Service-specific hero.
+2. Introduction.
+3. Problems we solve.
+4. Our capabilities.
+5. Deliverables.
+6. Working process.
+7. Visual examples.
+8. FAQs.
+9. Contact CTA.
+
+Use unique visuals for each category.
+
+Website Development:
+Responsive website mockups.
+
+Application Development:
+Smartphone interface mockups.
+
+Logo Design:
+Brand identity presentations.
+
+Typography:
+Typography specimens.
+
+Poster Design:
+Creative promotional layouts.
+
+Digital Marketing:
+Marketing strategy visuals.
+
+Performance Marketing:
+Campaign dashboards.
+
+Social Media:
+Social content grids.
+
+AI Agents:
+AI interfaces and workflow visualisations.
+
+Data Analysis:
+Charts, reports, and dashboards.
+
+Business Automation:
+Workflow diagrams.
+
+==================================================
+10. PORTFOLIO
+==================================================
+
+Route: /work
+
+Category filters:
+
+- All Projects.
+- Websites.
+- Applications.
+- Branding.
+- Creative Design.
+- Marketing.
+- AI & Automation.
+
+Create a visually distinctive portfolio grid.
+
+Each project card must support:
+
+- Preview image.
+- Title.
+- Category.
+- Description.
+- View Project.
+
+Create dynamic case study pages.
+
+Case study structure:
+
+- Project Overview.
+- Challenge.
+- Strategy.
+- Execution.
+- Deliverables.
+- Results.
+- Project Gallery.
+- Related Projects.
+
+Do not invent clients, testimonials, or performance results.
+
+==================================================
+11. PRICING
+==================================================
+
+Route: /pricing
+
+Actual packages and prices will be supplied separately.
+
+Do not invent prices.
+
+Create editable pricing components for:
+
+- Website Development.
+- Application Development.
+- Branding & Creative.
+- Digital Marketing.
+- Social Media Management.
+- AI & Automation.
+- Custom Business Solutions.
+
+Each pricing card should support:
+
+- Package Name.
+- Price.
+- Billing Period.
+- Features.
+- Deliverables.
+- Add-ons.
+- CTA.
+
+Until actual prices are supplied, use:
+
+"Request a Custom Quote."
+
+Include a professional comparison interface and pricing FAQs.
+
+==================================================
+12. OUR PROCESS
+==================================================
+
+Route: /process
+
+Headline:
+
+"GOOD WORK STARTS WITH A GOOD PROCESS."
+
+Create a visual timeline:
+
+1. Initial Discussion.
+2. Requirement Analysis.
+3. Strategy & Planning.
+4. Design & Development.
+5. Testing & Quality Assurance.
+6. Delivery & Launch.
+7. Support and Optimisation.
+
+Include detailed descriptions and CTA.
+
+==================================================
+13. INSIGHTS / BLOG
+==================================================
+
+Route: /insights
+
+Categories:
+
+- Technology.
+- Web Development.
+- Branding.
+- Marketing.
+- AI & Automation.
+- Business Growth.
+- Data & Analytics.
+
+Include:
+- Featured article.
+- Article cards.
+- Search.
+- Category filtering.
+- Reading time.
+- Publication dates.
+- Individual article pages.
+
+Keep content editable.
+
+==================================================
+14. CONTACT PAGE
+==================================================
+
+Route: /contact
+
+Headline:
+
+"LET'S MAKE YOUR NEXT IDEA HAPPEN."
+
+Create a professional enquiry form.
+
+Fields:
+
+- Full Name.
+- Business Name.
+- Email.
+- Phone Number.
+- Service Required.
+- Project Budget.
+- Project Timeline.
+- Project Description.
+- Consent Checkbox.
+
+Include all eleven services in the dropdown.
+
+Implement:
+- Form validation.
+- Error messages.
+- Loading states.
+- Success states.
+- Submission protection.
+
+Do not simulate successful delivery if no backend or email provider is configured.
+
+Keep integrations ready for future configuration using environment variables.
+
+==================================================
+15. LEGAL PAGES
+==================================================
+
+Build five separate legal pages.
+
+PRIVACY POLICY:
+
+/privacy-policy
+
+Include:
+- Information Collection.
+- Personal Information.
+- Cookies.
+- Information Usage.
+- Third-Party Services.
+- Data Storage.
+- Security.
+- Retention.
+- User Rights.
+- Policy Updates.
+
+TERMS & CONDITIONS:
+
+/terms-and-conditions
+
+Include:
+- Acceptance.
+- Services.
+- Project Scope.
+- Client Responsibilities.
+- Payments.
+- Revisions.
+- Delivery Timelines.
+- Intellectual Property.
+- Confidentiality.
+- Liability.
+- Termination.
+- Dispute Resolution.
+- Governing Law.
+
+COOKIE POLICY:
+
+/cookie-policy
+
+Include:
+- Cookie Types.
+- Essential Cookies.
+- Analytics Cookies.
+- Marketing Cookies.
+- Third-Party Cookies.
+- Cookie Management.
+
+REFUND & CANCELLATION POLICY:
+
+/refund-cancellation-policy
+
+Include:
+- Bookings.
+- Advance Payments.
+- Cancellation.
+- Refund Eligibility.
+- Completed Work.
+- Subscription Services.
+- Exceptional Circumstances.
+
+DISCLAIMER:
+
+/disclaimer
+
+Include:
+- General Information.
+- No Guaranteed Business Results.
+- Marketing Performance.
+- Third-Party Platforms.
+- External Links.
+- Technical Limitations.
+- Professional Advice.
+
+LEGAL REQUIREMENTS:
+
+- Use a professional legal-document layout.
+- Add numbered sections.
+- Include table of contents.
+- Add editable last-updated dates.
+- Keep content editable.
+- Do not invent registration details, company structure, tax information, or legal identity.
+- Do not claim automatic compliance with Indian laws.
+- Use placeholders where business decisions or legal review are required.
+
+==================================================
+16. IMPORTANT: INSTALLABLE AASRA WEB APPLICATION (PWA)
+==================================================
+
+THIS IS A MAJOR REQUIREMENT.
+
+I do not want the website to be only a website.
+
+I want visitors to be able to install AASRA Web Devs as an application directly from the website.
+
+The website must function as a Progressive Web App (PWA).
+
+When someone visits the website through a compatible mobile browser, they should see a premium installation popup encouraging them to install the AASRA application.
+
+After installation, the AASRA icon should appear on the mobile phone's home screen.
+
+When the user taps that icon, the AASRA website should open in an app-like standalone experience.
+
+The app must use the same website, branding, pages, content, and functionality.
+
+Do not build a separate unrelated application.
+
+### A. PWA MANIFEST
+
+Create a proper web app manifest.
+
+Recommended location:
+
+/public/manifest.webmanifest
+
+Configure:
+
+Name:
+AASRA Web Devs
+
+Short Name:
+AASRA
+
+Description:
+Your digital growth and technology partner.
+
+Start URL:
+/ 
+
+Scope:
+/ 
+
+Display:
+standalone
+
+Orientation:
+portrait-primary where supported.
+
+Theme Colour:
+#1D0D42
+
+Background Colour:
+#FFFFFF
+
+Add appropriate brand icons.
+
+Required icon sizes:
+
+- 192 × 192.
+- 512 × 512.
+
+Also create:
+- Maskable icon.
+- Apple Touch Icon.
+- Appropriate favicon.
+
+Use the actual AASRA logo if available.
+
+Create professionally adapted versions of the logo for the required icon sizes.
+
+Do not stretch or distort the logo.
+
+### B. SERVICE WORKER
+
+Create and register a service worker.
+
+Recommended location:
+
+/public/sw.js
+
+The service worker should provide:
+
+1. Offline fallback support.
+2. Caching of appropriate static assets.
+3. Caching of previously visited public pages where safe.
+4. Efficient image caching.
+5. Version-controlled cache management.
+6. Old cache cleanup.
+7. Safe application updates.
+
+Caching strategy:
+
+- Static versioned assets: Cache First.
+- Images: Cache First or Stale While Revalidate.
+- Public page navigation: Network First with an appropriate fallback.
+- API requests: Use appropriate network handling.
+- Contact form submissions: Never pretend an offline submission succeeded.
+- Never cache sensitive user information or private responses.
+
+Create an attractive offline page at:
+
+/offline
+
+The offline page should match the AASRA colour system and include:
+
+- AASRA branding.
+- "You're currently offline."
+- A helpful explanation.
+- Retry Connection button.
+- Home button.
+
+Do not cache everything indiscriminately.
+
+### C. AUTOMATIC INSTALLATION POPUP
+
+Create a premium, custom-designed installation popup.
+
+This is especially important.
+
+When a visitor opens the AASRA website on a compatible mobile device and the app is not already installed, show a branded installation popup.
+
+Suggested popup design:
+
+Top:
+AASRA application icon.
+
+Headline:
+
+"TAKE AASRA WITH YOU."
+
+Supporting text:
+
+"Install our app for a faster, more convenient experience. Access AASRA directly from your home screen."
+
+Primary button:
+
+INSTALL APP
+
+Secondary option:
+
+NOT NOW
+
+Optional small text:
+
+"Your digital growth partner, one tap away."
+
+Design requirements:
+
+- Premium white popup.
+- Deep-purple heading.
+- Electric-purple installation button.
+- Rounded corners.
+- Subtle shadow.
+- Smooth entrance animation.
+- Sophisticated background overlay.
+- Mobile-friendly layout.
+- Responsive width.
+- Professional icon.
+
+The popup must look like a real application installation invitation, not an ordinary browser alert.
+
+### D. INSTALLATION POPUP BEHAVIOUR
+
+Implement platform-aware installation handling.
+
+ANDROID — CHROME / COMPATIBLE CHROMIUM BROWSERS:
+
+Listen for the `beforeinstallprompt` event.
+
+Store the deferred installation event.
+
+When installation is available, display the custom AASRA installation popup.
+
+When the user clicks INSTALL APP:
+
+1. Invoke the browser's installation prompt through the stored event.
+2. Wait for the user's choice.
+3. Handle accepted and dismissed outcomes.
+4. Hide the popup appropriately.
+5. Update installation state.
+
+Listen for the `appinstalled` event.
+
+After installation:
+- Hide the installation popup.
+- Hide unnecessary installation buttons.
+- Treat the application as installed.
+
+Do not attempt to install automatically without user interaction.
+
+IOS — IPHONE / IPAD:
+
+The Chromium `beforeinstallprompt` mechanism is not supported in iOS Safari.
+
+Therefore, implement a separate iOS installation experience.
+
+When a visitor opens the website on an eligible iPhone or iPad and the app is not installed, show an AASRA-branded popup with the title:
+
+"INSTALL AASRA ON YOUR IPHONE."
+
+Show clear visual instructions:
+
+1. Open the Share button in the browser.
+2. Choose "Add to Home Screen".
+3. Confirm the installation.
+4. Open AASRA from the home screen.
+
+Include an illustrative Share icon and a professional visual guide.
+
+Button:
+
+GOT IT
+
+The instructions should be easy to understand.
+
+Do not show Android installation instructions to iPhone users.
+
+DESKTOP:
+
+Support website installation on compatible desktop browsers.
+
+When browser installation is available, provide:
+- An Install App button in the navigation.
+- An installation option in the footer.
+- A suitable branded installation popup or small promotional panel.
+
+For browsers without a programmatic installation API, show the relevant browser menu instructions.
+
+### E. POPUP DISPLAY RULES
+
+I want the installation invitation to be visible automatically when users visit the website, rather than requiring them to discover the installation option themselves.
+
+Implement these behaviours:
+
+- Show the installation invitation automatically on a new browsing session when the app is not installed.
+- Do not show it repeatedly during the same session after the user dismisses it.
+- Show it again on a later visit if the app remains uninstalled.
+- Do not show it after successful installation.
+- Do not interrupt installed-app users.
+- Do not show it during internal page navigation.
+- Do not create repeated overlapping popups.
+
+Use session storage or equivalent suitable logic to manage dismissal.
+
+Always keep an Install App option accessible in the navigation menu or an appropriate mobile menu when installation is supported.
+
+### F. INSTALLED APPLICATION EXPERIENCE
+
+After installation, the app must:
+
+- Open in standalone display mode.
+- Use the AASRA application icon.
+- Display the correct application name.
+- Use the deep-purple theme colour.
+- Keep navigation functional.
+- Preserve responsive page layouts.
+- Support the same public pages as the normal website.
+- Work with the service worker.
+- Provide an offline fallback.
+- Support safe application updates.
+
+Where supported, provide a suitable splash-screen experience through the manifest and platform configuration.
+
+The installed application must not unnecessarily redirect users to the mobile browser.
+
+### G. INSTALLED-STATE DETECTION
+
+Implement reliable detection using appropriate methods such as:
+
+- `window.matchMedia('(display-mode: standalone)')`.
+- `navigator.standalone` where available.
+- `appinstalled` event.
+- Appropriate platform-specific checks.
+
+Do not rely on a single unreliable user-agent check.
+
+Avoid incorrectly displaying the install popup to users who already have the app installed.
+
+### H. APP UPDATE HANDLING
+
+When a new website version is deployed:
+
+- Detect service worker updates.
+- Notify the user when an application update is available.
+- Provide an UPDATE APP button.
+- Activate the updated service worker safely.
+- Refresh the application when appropriate.
+
+Do not unexpectedly interrupt ongoing user actions.
+
+### I. IMPORTANT PWA LIMITATIONS
+
+This is an installable web application, not a separately packaged native Android APK or an iOS App Store application.
+
+Installation must use the browser's supported installation process.
+
+Do not claim that users can silently install the application.
+
+The custom popup must explain and initiate the correct platform-specific process.
+
+==================================================
+17. COOKIE CONSENT
+==================================================
+
+Create a premium cookie consent interface.
+
+Options:
+
+- Accept All.
+- Reject Non-Essential.
+- Manage Preferences.
+
+Categories:
+
+- Essential Cookies.
+- Analytics Cookies.
+- Marketing Cookies.
+
+Store visitor preferences appropriately.
+
+Do not activate non-essential tracking until the necessary consent has been obtained.
+
+Include a footer option to reopen preferences.
+
+Ensure the cookie system does not interfere with PWA installation or service-worker functionality.
+
+==================================================
+18. ANIMATIONS AND INTERACTIONS
+==================================================
+
+Implement sophisticated interactions.
+
+NAVIGATION:
+- Animated underlines.
+- Scroll-based changes.
+- Smooth dropdowns.
+- Mobile navigation animation.
+
+HERO:
+- Text reveals.
+- Floating interface mockups.
+- Cursor-responsive cards on desktop.
+- Subtle parallax.
+- Animated CTA arrows.
+
+SERVICES:
+- Hover elevation.
+- Icon transitions.
+- Staggered reveals.
+
+PORTFOLIO:
+- Image zoom.
+- Layered cards.
+- Interactive previews.
+
+SCROLL:
+- Section reveals.
+- Sticky headings.
+- Smooth background transitions.
+- Staggered animations.
+
+FEATURED PROJECTS:
+
+Create an interactive layered project-card stack on desktop inspired by the supplied reference website.
+
+Cards should move forward and away as the user scrolls.
+
+On mobile, replace it with a clean vertical card list.
+
+DARK SECTION:
+
+Create a deep-purple section with white typography.
+
+Use smooth transitions into and out of the section.
+
+INSTALL POPUP:
+
+Create a refined installation-prompt entrance animation.
+
+Do not make it excessively large or intrusive.
+
+MOTION RULES:
+
+- Respect reduced-motion preferences.
+- Disable mouse-dependent effects on touch screens.
+- Avoid excessive animations.
+- Keep scroll behaviour comfortable.
+- Maintain readability.
+- Avoid performance-heavy effects.
+
+==================================================
+19. RESPONSIVE DESIGN
+==================================================
+
+The website and installed application must both be responsive.
+
+Test:
+
+1920 × 1080
+1440 × 900
+1024 × 768
+768 × 1024
+390 × 844
+375 × 812
+
+Requirements:
+
+- No horizontal overflow.
+- Responsive typography.
+- Mobile-specific layouts.
+- Proper navigation.
+- Touch-friendly buttons.
+- Proper image cropping.
+- Responsive cards.
+- Readable legal pages.
+- Functional install popup.
+- No overlapping modals.
+- No animation conflicts.
+
+The mobile version must feel like a purpose-built application rather than a compressed desktop website.
+
+==================================================
+20. SEO IMPLEMENTATION
+==================================================
+
+Implement:
+
+- Unique page titles.
+- Meta descriptions.
+- Semantic HTML.
+- Proper H1/H2/H3 hierarchy.
+- Canonical URL support.
+- Open Graph metadata.
+- Social-sharing metadata.
+- XML sitemap.
+- robots.txt.
+- Image alt text.
+- Internal links.
+- Breadcrumbs.
+- Appropriate structured data.
+
+Add appropriate PWA metadata and manifest references to the document head.
+
+Use service-specific metadata.
+
+Do not keyword-stuff content.
+
+==================================================
+21. PERFORMANCE AND CODE QUALITY
+==================================================
+
+Requirements:
+
+- Optimised images.
+- Lazy loading.
+- Efficient JavaScript.
+- Code splitting.
+- Good React rendering performance.
+- No unnecessary dependencies.
+- No hydration errors.
+- No broken assets.
+- No unnecessary network requests.
+- No console errors.
+- Accessible components.
+- Maintainable code.
+
+Ensure that PWA installation and service-worker registration do not break the Next.js application.
+
+Do not cache sensitive or private data.
+
+Do not interfere with contact form submissions.
+
+==================================================
+22. PROJECT STRUCTURE
+==================================================
+
+Use a clean structure similar to:
+
+src/
+  app/
+    page.tsx
+    about/
+    services/
+    work/
+    pricing/
+    process/
+    insights/
+    contact/
+    privacy-policy/
+    terms-and-conditions/
+    cookie-policy/
+    refund-cancellation-policy/
+    disclaimer/
+    offline/
+
+  components/
+    navigation/
+    footer/
+    hero/
+    services/
+    portfolio/
+    pricing/
+    forms/
+    animations/
+    legal/
+    pwa/
+    ui/
+
+  data/
+    services.ts
+    projects.ts
+    pricing.ts
+    faq.ts
+    navigation.ts
+    articles.ts
+
+  lib/
+    metadata.ts
+    utilities.ts
+    validation.ts
+    pwa.ts
+
+  styles/
+    globals.css
+
+public/
+  icons/
+    icon-192.png
+    icon-512.png
+    icon-maskable-512.png
+    apple-touch-icon.png
+
+  manifest.webmanifest
+  sw.js
+  favicon.ico
+
+Adjust the structure when necessary, but maintain clear separation of responsibilities.
+
+==================================================
+23. DEVELOPMENT AND VERIFICATION WORKFLOW
+==================================================
+
+PHASE 1 — INSPECTION
+
+Inspect:
+- Current project workspace.
+- Existing code.
+- Package dependencies.
+- Brand assets.
+- Actual AASRA logo.
+- Supplied colour palette.
+
+Do not overwrite working files unnecessarily.
+
+PHASE 2 — ARCHITECTURE
+
+Define:
+- Application architecture.
+- Page routes.
+- Components.
+- Design tokens.
+- Typography.
+- Animation system.
+- PWA architecture.
+- Navigation.
+- Footer.
+
+PHASE 3 — IMPLEMENTATION
+
+Build all website pages.
+
+Implement:
+- Navigation.
+- Footer.
+- Services.
+- Portfolio.
+- Pricing.
+- About.
+- Process.
+- Insights.
+- Contact.
+- Legal pages.
+- Cookie consent.
+- PWA manifest.
+- Service worker.
+- Installation popup.
+- Offline fallback.
+- Installed-app detection.
+- Update notification.
+
+PHASE 4 — BROWSER TESTING
+
+Run the development server.
+
+Use browser tools to inspect the running website.
+
+Test all routes and interactions.
+
+Test desktop and mobile designs.
+
+Test:
+- Navigation.
+- Forms.
+- CTA buttons.
+- Cookie settings.
+- Installation popup.
+- Responsive layouts.
+- Animations.
+- Service worker registration.
+- Offline fallback.
+- Console errors.
+
+PHASE 5 — PWA TESTING
+
+Verify:
+
+1. Manifest loads successfully.
+2. Required icons load.
+3. Service worker registers.
+4. Application is served over HTTPS in deployment.
+5. Browser installation is available when supported.
+6. Android installation flow works when the browser fires the installation event.
+7. iOS instructions display correctly.
+8. Already-installed users do not see the installation popup.
+9. Dismissed popups do not repeat within the same session.
+10. Offline fallback works after caching.
+11. Application updates are handled correctly.
+12. Installed application opens in standalone mode where supported.
+
+Use browser developer tools and PWA audits where available.
+
+Do not claim installation has been tested on a real mobile device unless it actually has been.
+
+PHASE 6 — FINAL CHECK
+
+Run:
+- Production build.
+- TypeScript checks.
+- Lint checks.
+- Available PWA validation.
+
+Resolve errors before completion.
+
+==================================================
+24. IMPORTANT DEVELOPMENT RULES
+==================================================
+
+1. Do not stop after creating the homepage.
+2. Do not create static screenshots instead of a working website.
+3. Do not leave non-functional buttons.
+4. Do not leave disconnected navigation links.
+5. Do not invent business information.
+6. Do not invent testimonials or client results.
+7. Do not invent pricing.
+8. Do not copy Kolibrie Studio literally.
+9. Do not use colours outside our official palette.
+10. Do not sacrifice mobile usability for desktop animations.
+11. Do not use unnecessary paid services.
+12. Do not fake form-submission success.
+13. Do not ignore legal pages.
+14. Do not ignore PWA functionality.
+15. Do not create an installation popup that cannot actually initiate or explain installation.
+16. Do not show installation invitations to users who have already installed the app.
+17. Do not claim an APK has been generated.
+18. Do not silently install applications.
+19. Do not claim offline functionality without implementing and testing the service worker.
+20. Do not leave placeholder pages without meaningful layouts and content.
+
+Prioritise quality, reliability, and usability.
+
+==================================================
+25. FINAL DELIVERABLE
+==================================================
+
+The final deliverable must be a complete AASRA Web Devs digital platform.
+
+It must include:
+
+A. Complete multi-page website.
+
+B. Fully responsive mobile experience.
+
+C. Professional branding and visual design.
+
+D. All eleven service pages.
+
+E. Portfolio and case study system.
+
+F. Editable pricing system.
+
+G. Contact and enquiry interface.
+
+H. Complete legal-page structure.
+
+I. Cookie consent.
+
+J. SEO implementation.
+
+K. Installable Progressive Web App.
+
+L. Automatic branded installation invitation.
+
+M. Android installation flow.
+
+N. iOS installation instructions.
+
+O. Desktop installation support where available.
+
+P. Standalone application display.
+
+Q. Service worker and caching.
+
+R. Offline fallback.
+
+S. Application update handling.
+
+T. Browser-tested implementation.
+
+BRAND:
+
+AASRA WEB DEVS
+
+BRAND PHILOSOPHY:
+
+BUILD DIGITAL.
+CREATE IMPACT.
+DRIVE GROWTH.
+
+PRIMARY CTA:
+
+START A PROJECT.
+
+APPLICATION NAME:
+
+AASRA
+
+==================================================
+FINAL EXECUTION INSTRUCTION
+==================================================
+
+Start by inspecting the current workspace and supplied brand assets.
+
+Prepare an implementation plan.
+
+Then execute the complete development.
+
+Do not stop at the planning stage.
+
+Actually build the website and installable PWA.
+
+Launch it locally.
+
+Inspect every important page.
+
+Fix visual and functional issues.
+
+Verify the PWA implementation.
+
+Provide a final summary explaining:
+
+- What has been built.
+- Which pages are complete.
+- Which PWA features work.
+- How to test installation.
+- What still requires actual business information.
+- What is required before production deployment.
+
+The final result should feel like a premium international digital agency with its own installable mobile application experience.
+
+**AASRA Web Devs is not just a website. It is a digital platform for our brand.**
